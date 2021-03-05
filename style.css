@@ -1,0 +1,314 @@
+.newnav{
+  padding-left: 65%;
+}
+.humanizing{
+  padding: 7%;
+  background-color: hsl(256, 26%, 20%);
+  width: 100%;
+  height: 350px;
+  background-image: url(images/bg-pattern-intro-right-desktop.svg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+.humbg{
+  position: absolute;
+  left: 0;
+  top: 250px;
+  width: 10%;
+}
+.introimg{
+  position: absolute;
+  right: 5%;
+  top: 120px;
+  width: 27%;
+  height: 70%;
+}
+.hone{
+  color: #fff;
+  font-family: 'DM Serif Display', serif;
+  font-size: 3rem;
+}
+.pone{
+  color: #fff;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  width: 60%;
+}
+.btntwo{
+  width: 25%;
+
+}
+.hrone{
+  color: #fff;
+  width: 15%;
+}
+.middle{
+  width: 100%;
+  position: absolute;
+  top: 650px;
+}
+.icon{
+  width: 30%;
+  display: inline-block;
+  padding-left: 50px;
+  line-height: 1.7;
+}
+.iimg{
+  width: 15%;
+  padding-bottom: 5px;
+}
+.ione{
+  padding-left: 100px;
+}
+.htwo{
+  padding-left: 100px;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+.hrtwo{
+  width: 10%;
+ position: absolute;
+ left: 100px;
+
+}
+.lower-middle{
+  background-image: url(images/bg-pattern-how-we-work-mobile.svg);
+  background-position: right top;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  top: 1020px;
+  background-color: hsl(256, 26%, 20%);
+  width: 80%;
+  left: 130px;
+  height: 150px;
+  padding: 3%;
+}
+.hthree{
+  display: inline-block;
+  color: #fff;
+  font-family: 'DM Serif Display', serif;
+  font-size: 2.5rem;
+
+  width: 40%;
+  line-height: 1;
+
+}
+.btnthree{
+  position: absolute;
+  right: 120px;
+  top: 70px;
+
+}
+.bottom{
+  width: 100%;
+
+  position: absolute;
+  top: 1300px;
+}
+.bottomdiv{
+  display: inline-block;
+  position: absolute;
+  left: 130px;
+}
+.social-icon{
+  display: inline-block;
+  position: absolute;
+  right: 130px;
+}
+.bottomicon{
+  padding-left: 10px;
+}
+.hrthree{
+  width: 80%;
+  position: absolute;
+  top: 1330px;
+  left: 130px;
+  color: hsl(216, 30%, 68%);
+}
+.lower-bottom{
+  position: absolute;
+  top: 1380px;
+}
+.l{
+  display: inline-block;
+  padding-left: 170px;
+  height: 210px;
+}
+a:link{
+
+  text-decoration: none;
+  }
+  .ptwo a{
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+  }
+  .head{
+    color: hsl(273, 4%, 51%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+  }
+  .ptwo a:hover{
+    color: black;
+    text-decoration: underline;
+  }
+.attribution{
+  position: absolute;
+  top: 1600px;
+  left: 40%;
+}
+.pv{
+  visibility: hidden;
+}
+.toplogo{
+  position: absolute;
+  left: 100px;
+}
+@media only screen and (max-width: 994px)  {
+  .introimg{
+    position: initial;
+    width: 100%;
+  }
+  .toplogo{
+    position: initial;
+  }
+  .formedia{
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pone{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .humanizing{
+    padding: initial;
+  }
+  .hrtwo{
+    width: 10%;
+   position: initial;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 100px;
+}
+  .middle{
+    width: 100%;
+    position: initial;
+
+  }
+  .htwo{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: initial;
+  }
+  .ione{
+    width: 100%;
+    text-align: center;
+  }
+  .itwo{
+    width: 100%;
+    text-align: center;
+  }
+  .ithree{
+    width: 100%;
+    text-align: center;
+  }
+  .icon{
+    padding-top: 30px;
+    padding-left: initial;
+    line-height: 1.7;
+  }
+  .lower-middle{
+    background-image: url(images/bg-pattern-how-we-work-mobile.svg);
+    background-position: right top;
+    background-repeat: no-repeat;
+position: initial;
+background-color: hsl(256, 26%, 20%);
+    width: 60%;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  .hthree{
+
+    color: #fff;
+    font-family: 'DM Serif Display', serif;
+    font-size: 2rem;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+
+  }
+  .btnthree{
+    width: 40%;
+    position: initial;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+
+  }
+  .bottom{
+    width: 100%;
+position: initial;
+
+  }
+  .bottomdiv{
+    display: block;
+    position: initial;
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+  }
+
+  .social-icon{
+    display: block;
+    position: initial;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+  }
+  .bottomicon{
+    padding-left: 10px;
+  }
+  .lower-bottom{
+    position: initial;
+    text-align: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .l{
+    display: block;
+    padding-left: initial;
+    height: 210px;
+  }
+  .hrthree{
+    width: 80%;
+    position: initial;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: hsl(216, 30%, 68%);
+  }
+  .attribution{
+    position: initial;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+
+
+}
